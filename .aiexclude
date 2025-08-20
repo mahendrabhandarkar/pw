@@ -1,0 +1,9 @@
+# Exclude everything
+/src/main
+
+# But NOT src directories (all levels)
+!src/
+!src/**
+
+# Allow all pom.xml files at any level
+!pom.xml
